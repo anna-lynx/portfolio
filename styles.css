@@ -33,6 +33,7 @@ nav ul {
     text-decoration: none;
 }
 
+
 h1 .highlight {
     color: rgba(109,23,30,1.00);
 }
@@ -160,6 +161,7 @@ h1 .highlight {
     -webkit-box-shadow: 0px 0px 20px;
     box-shadow: 0px 0px 20px;
 }
+
 #myOwnSite li h3 a:hover, #myOwnSite li h3 a:active {
     color: rgba(229,154,139,1.00);
     font-size: 27px;
@@ -170,6 +172,10 @@ h1 .highlight {
     text-decoration: none;
     font-size: 27px;
 }
+#myOwnSite li p {
+    color: rgba(236,225,215,1.00);
+}
+
 
 
 
@@ -230,4 +236,110 @@ header{
     margin-left: 13px;
     text-align: center;
     margin-top: -9px;
+}
+#aside  {
+    background-color: rgba(229,154,139,1.00);
+    margin-top: -31px;
+    padding-bottom: 50px;
+    padding-top: 2px;
+}
+#aside h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(109,23,30,1.00);
+    margin-bottom: 26px;
+    margin-top: 13px;
+}
+#aside ul li {
+    text-decoration: none;
+    list-style-type: none;
+    /* [disabled]height: 112px; */
+    width: auto;
+}
+
+.resource-1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgba(190,40,52,0.80);
+    margin-right: 50px;
+    padding-bottom: 8px;
+}
+/*
+h2 a {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+}
+*/
+/*
+.resource-1 h2 {
+   
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+
+     [disabled]margin-top: 24px; 
+    padding-top: 24px;
+}
+*/
+/*
+h2 a {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+}
+*/
+.resource-1 h2:hover  , .resource-1 h2:active{
+    margin-left: 30px;
+    color: rgba(229,154,139,1.00);
+	    text-decoration: none;
+    font-size: 27px;
+    /* [disabled]margin-top: 24px; */
+    padding-top: 24px;
+    text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
+}
+
+.resource-1 h2:link  , .resource-1 h2:visited{
+    margin-left: 30px;
+    color: rgba(239,186,147,1.00);
+    font-size: 27px;
+    /* [disabled]margin-top: 24px; */
+    padding-top: 24px;
+    text-decoration: none;
+}
+.resource-1 p {
+    margin-left: 30px;
+    margin-top: 16px;
+    color: rgba(236,225,215,1.00);
+}
+
+.resource-2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgba(190,40,52,0.80);
+    margin-right: 50px;
+    padding-bottom: 8px;
+}
+
+/*
+h2 a {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+}
+*/
+.resource-2 h2 {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+    /* [disabled]margin-top: 24px; */
+    padding-top: 24px;
+}
+.resource-2 p {
+    margin-left: 30px;
+    margin-top: 16px;
+    color: rgba(236,225,215,1.00);
 }
