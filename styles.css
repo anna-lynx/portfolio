@@ -26,11 +26,11 @@ nav ul {
 
 .nav-bar ul li a:link, .nav-bar ul li a:visited {
     color: #DA8972;
-    text-decoration: none;
+    
 }
-.nav-bar ul li a:hover, .nav-bar ul li a:active {
+.nav-bar ul li a:hover, .nav-bar ul li a:active {	
+	text-decoration: none;
     color: #6D171E;
-    text-decoration: none;
 }
 
 
@@ -99,6 +99,29 @@ h1 .highlight {
     color: rgba(229,154,139,1.00);
     font-size: 27px;
     text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
+    text-decoration: none;
+}
+#myOwnSite li h3 a:hover, #myOwnSite li h3 a:active {
+    color: rgba(229,154,139,1.00);
+    font-size: 27px;
+    text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
+    text-decoration: none;
+}
+#myOwnSite li h3 a:link, #myOwnSite li h3 a:visited {
+    color: rgba(239,186,147,1.00);
+    text-decoration: none;
+    font-size: 27px;
+}
+#squintSite li h3 a:link, #squintSite li h3 a:visited {
+    color: rgba(239,186,147,1.00);
+    text-decoration: none;
+    font-size: 27px;
+}
+#squintSite li h3 a:hover, #squintSite li h3 a:active {
+    color: rgba(229,154,139,1.00);
+    font-size: 27px;
+    text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
+    text-decoration: none;
 }
 
 
@@ -129,16 +152,19 @@ h1 .highlight {
 #squintSite li p {
     color: rgba(236,225,215,1.00);
 }
+/*
 #squintSite li h3 a:hover  , #squintSite li h3 a:active{
     color: rgba(229,154,139,1.00);
     font-size: 27px;
     text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
+    text-decoration: none;
 }
 #squintSite li h3 a:link  , #squintSite li h3 a:visited{
     color: rgba(239,186,147,1.00);
     text-decoration: none;
     font-size: 27px;
 }
+*/
 
 
 .mainSites ul #myOwnSite {
@@ -162,16 +188,20 @@ h1 .highlight {
     box-shadow: 0px 0px 20px;
 }
 
+/*
 #myOwnSite li h3 a:hover, #myOwnSite li h3 a:active {
     color: rgba(229,154,139,1.00);
     font-size: 27px;
     text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
+    text-decoration: none;
 }
 #myOwnSite li h3 a:link, #myOwnSite li h3 a:visited {
     color: rgba(239,186,147,1.00);
     text-decoration: none;
     font-size: 27px;
 }
+*/
+
 #myOwnSite li p {
     color: rgba(236,225,215,1.00);
 }
@@ -238,7 +268,7 @@ header{
     margin-top: -9px;
 }
 #aside  {
-    background-color: rgba(229,154,139,1.00);
+    background-color: rgba(239,186,147,1.00);
     margin-top: -31px;
     padding-bottom: 50px;
     padding-top: 2px;
@@ -260,53 +290,11 @@ header{
 .resource-1 {
     margin-top: 30px;
     margin-left: 20px;
-    background-color: rgba(190,40,52,0.80);
+    background-color: rgba(109,23,30,1.00);
     margin-right: 50px;
+    border-radius: 25px;
+    border: 9px solid rgba(109,23,30,1.00);
     padding-bottom: 8px;
-}
-/*
-h2 a {
-    margin-left: 30px;
-    color: rgba(236,225,215,1.00);
-    font-size: 25px;
-    text-decoration: none;
-}
-*/
-/*
-.resource-1 h2 {
-   
-    color: rgba(236,225,215,1.00);
-    font-size: 25px;
-
-     [disabled]margin-top: 24px; 
-    padding-top: 24px;
-}
-*/
-/*
-h2 a {
-    margin-left: 30px;
-    color: rgba(236,225,215,1.00);
-    font-size: 25px;
-    text-decoration: none;
-}
-*/
-.resource-1 h2:hover  , .resource-1 h2:active{
-    margin-left: 30px;
-    color: rgba(229,154,139,1.00);
-	    text-decoration: none;
-    font-size: 27px;
-    /* [disabled]margin-top: 24px; */
-    padding-top: 24px;
-    text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
-}
-
-.resource-1 h2:link  , .resource-1 h2:visited{
-    margin-left: 30px;
-    color: rgba(239,186,147,1.00);
-    font-size: 27px;
-    /* [disabled]margin-top: 24px; */
-    padding-top: 24px;
-    text-decoration: none;
 }
 .resource-1 p {
     margin-left: 30px;
@@ -317,8 +305,10 @@ h2 a {
 .resource-2 {
     margin-top: 30px;
     margin-left: 20px;
-    background-color: rgba(190,40,52,0.80);
+    background-color: rgba(109,23,30,1.00);
     margin-right: 50px;
+    border-radius: 25px;
+    border: 9px solid rgba(109,23,30,1.00);
     padding-bottom: 8px;
 }
 
@@ -342,4 +332,14 @@ h2 a {
     margin-left: 30px;
     margin-top: 16px;
     color: rgba(236,225,215,1.00);
+}
+
+.resource-3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgba(109,23,30,1.00);
+    margin-right: 50px;
+    border-radius: 25px;
+    border: 9px solid rgba(109,23,30,1.00);
+    padding-bottom: 8px;
 }
