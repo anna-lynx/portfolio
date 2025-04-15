@@ -14,7 +14,7 @@ body{
 .nav-bar ul li {
     display: inline-block;
     margin-left: 10px;
-    margin-top: 11px;
+    /* [disabled]margin-top: -7px; */
     font-size: 20px;
 }
 nav ul {
@@ -230,7 +230,7 @@ h1 .highlight {
     padding-top: 0px;
     padding-bottom: 1px;
     margin-bottom: 51px;
-    margin-top: 53px;
+    margin-top: 69px;
 }
 
 
@@ -252,7 +252,7 @@ h1 .highlight {
     margin-left: 62px;
     margin-bottom: -257px;
     padding-bottom: 0px;
-    margin-top: 27px;
+    margin-top: 37px;
 }
 .header-text h1 {
     font-size: 54px;
@@ -262,9 +262,9 @@ h1 .highlight {
 
 header{
     background-color: rgba(239,186,147,1.00);
-    margin-top: -43px;
+    margin-top: -42px;
     margin-left: 0px;
-    padding-top: 0px;
+    padding-top: 8px;
     padding-bottom: 0px;
     margin-bottom: 30px;
     width: auto;
