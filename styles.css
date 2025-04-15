@@ -23,14 +23,17 @@ nav ul {
     margin-left: 15px;
     /* [disabled]font-size: 21px; *//*    text-align: justify;*/
 }
-
-.nav-bar ul li a:link, .nav-bar ul li a:visited {
-    color: #DA8972;
+a:link ,a:visited     {
+    color: rgba(236,225,215,1.00);
+    text-decoration: none;
+    font-size: 27px;
     
 }
-.nav-bar ul li a:hover, .nav-bar ul li a:active {	
-	text-decoration: none;
-    color: #6D171E;
+a:hover ,a:active     {
+    text-decoration: none;
+    color: rgba(229,154,139,1.00);
+    font-size: 27px;
+    text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
 }
 
 
@@ -73,7 +76,7 @@ h1 .highlight {
 .mainSites ul #firstSite {
     /* [disabled]display: inline; */
     width: 400px;
-    margin-top: -52px;
+    margin-top: -71px;
     list-style-type: none;
     margin-left: 913px;
     background-color: rgba(109,23,30,1.00);
@@ -89,7 +92,9 @@ h1 .highlight {
 
 #firstSite li p {
     color: rgba(236,225,215,1.00);
+    font-size: 20px;
 }
+/*
 #firstSite li h3 a:link, #firstSite li h3 a:visited {
     color: rgba(239,186,147,1.00);
     text-decoration: none;
@@ -123,6 +128,7 @@ h1 .highlight {
     text-shadow: 0px 0px 14px rgba(0,0,0,1.00);
     text-decoration: none;
 }
+*/
 
 
 
@@ -132,7 +138,7 @@ h1 .highlight {
 .mainSites ul #squintSite {
     width: 400px;
     margin-left: 95px;
-    margin-top: -15px;
+    margin-top: -70px;
     border-radius: 59px / 51px 51px 51px 59px;
     border: 23px solid rgba(109,23,30,1.00);
     list-style-type: none;
@@ -141,7 +147,7 @@ h1 .highlight {
 .mainSites ul #squintSite:hover  {
     width: 400px;
     margin-left: 95px;
-    margin-top: -15px;
+    margin-top: -70px;
     border-radius: 59px / 51px 51px 51px 59px;
     border: 23px solid rgba(109,23,30,1.00);
     list-style-type: none;
@@ -151,6 +157,7 @@ h1 .highlight {
 }
 #squintSite li p {
     color: rgba(236,225,215,1.00);
+    font-size: 20px;
 }
 /*
 #squintSite li h3 a:hover  , #squintSite li h3 a:active{
@@ -173,7 +180,7 @@ h1 .highlight {
     margin-left: 750px;
     border-radius: 59px / 51px 51px 51px 59px;
     border: 23px solid rgba(109,23,30,1.00);
-    margin-top: 59px;
+    margin-top: 27px;
     background-color: rgba(109,23,30,1.00);
 }
 .mainSites ul #myOwnSite:hover  {
@@ -182,7 +189,7 @@ h1 .highlight {
     margin-left: 750px;
     border-radius: 59px / 51px 51px 51px 59px;
     border: 23px solid rgba(109,23,30,1.00);
-    margin-top: 59px;
+    margin-top: 27px;
     background-color: rgba(109,23,30,1.00);
     -webkit-box-shadow: 0px 0px 20px;
     box-shadow: 0px 0px 20px;
@@ -204,6 +211,7 @@ h1 .highlight {
 
 #myOwnSite li p {
     color: rgba(236,225,215,1.00);
+    font-size: 20px;
 }
 
 
@@ -296,6 +304,22 @@ header{
     border: 9px solid rgba(109,23,30,1.00);
     padding-bottom: 8px;
 }
+/*
+h2 a {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+}
+*/
+.resource-1 h2 {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+    /* [disabled]margin-top: 24px; */
+    padding-top: 24px;
+}
 .resource-1 p {
     margin-left: 30px;
     margin-top: 16px;
@@ -342,4 +366,73 @@ h2 a {
     border-radius: 25px;
     border: 9px solid rgba(109,23,30,1.00);
     padding-bottom: 8px;
+}
+
+/*
+h2 a {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+}
+*/
+.resource-3 h2 {
+    margin-left: 30px;
+    color: rgba(236,225,215,1.00);
+    font-size: 25px;
+    text-decoration: none;
+    /* [disabled]margin-top: 24px; */
+    padding-top: 24px;
+}
+
+.resource-3 p {
+    margin-left: 30px;
+    margin-top: 16px;
+    color: rgba(236,225,215,1.00);
+}
+footer {
+    background-color: rgba(109,23,30,1.00);
+    list-style-type: none;
+    margin-top: -21px;
+    margin-bottom: 14px;
+    padding-bottom: 2px;
+}
+#contact h1 {
+    color: #ECE1D7;
+    text-align: center;
+    padding-top: 8px;
+}
+#contact ul li  {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 12px;
+    text-align: center;
+    padding-left: 17px;
+}
+.images {
+    margin-left: -61px;
+    text-align: center;
+
+
+}
+.imgPhone {
+    width: 30px;
+    height: 30px;
+    max-width: 25px;
+    max-height: 25px;
+    padding-bottom: 3px;
+}
+
+.imgMail {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.imgInst {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
 }
